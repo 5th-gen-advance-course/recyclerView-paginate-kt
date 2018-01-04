@@ -1,13 +1,15 @@
-package com.example.ratha.recyclerviewpaginate_kt
+package com.example.ratha.recyclerviewpaginate_kt.ui.main
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
-import com.example.ratha.recyclerviewpaginate_kt.adapter.BookAdapter
+import com.example.ratha.recyclerviewpaginate_kt.R
+import com.example.ratha.recyclerviewpaginate_kt.base.BaseActivity
+import com.example.ratha.recyclerviewpaginate_kt.ui.adapter.BookAdapter
 import com.example.ratha.recyclerviewpaginate_kt.entity.response.Book
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity(){
 
     lateinit var bookAdapter : BookAdapter;
     var bookList : MutableList<Book> = mutableListOf()

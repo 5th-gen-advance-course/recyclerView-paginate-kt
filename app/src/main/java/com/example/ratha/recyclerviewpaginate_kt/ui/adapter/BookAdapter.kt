@@ -1,4 +1,4 @@
-package com.example.ratha.recyclerviewpaginate_kt.adapter
+package com.example.ratha.recyclerviewpaginate_kt.ui.adapter
 
 import android.content.Context
 import android.support.v7.widget.RecyclerView
