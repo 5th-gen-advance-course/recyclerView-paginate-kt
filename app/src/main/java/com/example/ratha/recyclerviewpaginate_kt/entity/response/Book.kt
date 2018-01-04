@@ -1,4 +1,4 @@
-package com.example.ratha.recyclerviewpaginate_kt.entity
+package com.example.ratha.recyclerviewpaginate_kt.entity.response
 
 /**
  * Created by ratha on 1/3/2018.
@@ -10,8 +10,8 @@ data class Book( val title: String , val author: String ) {
             this.viewer=viewer
     }
 
-    fun getAllData(): Book{
-        return Book(this.title,this.author,this.viewer)
+    fun getAllData(): Book {
+        return Book(this.title, this.author, this.viewer)
     }
 
 }

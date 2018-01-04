@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.example.ratha.recyclerviewpaginate_kt.R
-import com.example.ratha.recyclerviewpaginate_kt.entity.Book
+import com.example.ratha.recyclerviewpaginate_kt.entity.response.Book
 
 /**
  * Created by ratha on 1/2/2018.

@@ -20,7 +20,17 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
+    sourceSets{
+        main{
+            file('src/main/res-screen').listFiles().each { res.srcDirs += it.path }
+            file('src/main/res-fragment').listFiles().each {res.srcDirs +=it.path}
+        }
+    }
 }
+
+
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
