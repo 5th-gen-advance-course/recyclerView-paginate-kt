@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="drawerTextHeader">14sp</dimen>
+    <dimen name="drawerImageProfileWith">100sp</dimen>
+    <dimen name="drawerImageProfileHeight">100sp</dimen>
+</resources>

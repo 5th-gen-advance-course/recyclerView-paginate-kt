@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="DrawerHeader">
+        <item name="android:textSize">@dimen/drawerTextHeader</item>
+        <item name="android:textColor">@color/colorDrawerTextHeader</item>
+    </style>
 </resources>

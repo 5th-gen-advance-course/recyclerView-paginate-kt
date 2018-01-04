@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:background="?attr/colorPrimaryDark"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Light"
+    android:orientation="vertical"
+    android:gravity="bottom">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/drawerImageProfileWith"
+        android:layout_height="@dimen/drawerImageProfileHeight"
+        android:src="@drawable/user"
+        android:layout_marginBottom="16dp"/>
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rathana Voy"
+        android:theme="@style/DrawerHeader"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rathanavoy@gmail.com"
+        android:theme="@style/DrawerHeader"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>
